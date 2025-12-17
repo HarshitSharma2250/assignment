@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+debug.log
+error.log
+
+# Compiled files
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.cache
+
+# Ignore compressed images directory (if storing locally)
+compressed/
+
+# Ignore CSV uploads
+uploads/
+*.csv
