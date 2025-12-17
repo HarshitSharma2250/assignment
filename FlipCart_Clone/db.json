@@ -1,0 +1,49 @@
+
+{
+    "electronics":[
+ 
+    {
+      "img": "path/to/image2.jpg",
+      "name": "Laptop ABC",
+      "price": 899.99,
+      "category": "Electronics",
+      "subcategory": "Laptops"
+    },
+    {
+      "img": "path/to/image3.jpg",
+      "name": "Bluetooth Earbuds",
+      "price": 49.99,
+      "category": "Electronics",
+      "subcategory": "Audio"
+    },
+    {
+      "img": "path/to/image4.jpg",
+      "name": "4K Smart TV",
+      "price": 599.99,
+      "category": "Electronics",
+      "subcategory": "Televisions"
+    },
+    {
+      "img": "path/to/image5.jpg",
+      "name": "Gaming Console",
+      "price": 349.99,
+      "category": "Electronics",
+      "subcategory": "Gaming"
+    },
+    {
+      "img": "path/to/image199.jpg",
+      "name": "Smart Home Kit",
+      "price": 199.99,
+      "category": "Electronics",
+      "subcategory": "SmartHome"
+    },
+    {
+      "img": "path/to/image200.jpg",
+      "name": "Wireless Mouse",
+      "price": 19.99,
+      "category": "Electronics",
+      "subcategory": "Accessories"
+    }
+  ]
+  
+}

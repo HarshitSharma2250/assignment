@@ -1,0 +1,84 @@
+
+body {
+    position: relative; /* Added to act as positioning context */
+  }
+
+#collections {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 4.4rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 2%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    position: relative; /* Added to act as positioning context */
+    overflow: hidden; /* Added to hide content overflow */
+  }
+#collectionbox a{
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  height:9rem;
+  align-items: center;
+  justify-content: center;
+}
+#collectionbox a img{
+    width: 50px;
+}
+#collectionbox p{
+    margin-top: 10px;
+}
+
+
+/* --------main ---------------------------------- */
+#single_top_slide_bar{
+    width: 100%;
+    margin-top: 10px;
+}
+#single_top_slide_bar #leftbtn ,
+#single_top_slide_bar #rightbtn {
+position: absolute;
+top: 17rem;
+padding: 2rem .8rem;
+cursor: pointer;
+
+}
+#single_top_slide_bar #leftbtn{
+    left: 1%;
+}
+#single_top_slide_bar #rightbtn {
+    right: 1%;
+}
+#single_top_slide_bar>#single_slider_top{
+width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    #collections {
+        overflow: auto; /* Changed to 'auto' to enable scrolling */
+        scrollbar-width: thin
+      }
+      #single_top_slide_bar #leftbtn,
+    #single_top_slide_bar #rightbtn {
+       display: none;
+    }   
+}
+
+
+@media screen and (max-width:768px){
+
+  #collectionbox a img{
+    width: 30px;
+}
+#collectionbox p{
+   font-size: small;
+}
+   }
+@media screen and (max-width:609px){
+    #collections {
+    margin-top: 6.7rem;
+    }
+}

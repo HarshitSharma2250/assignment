@@ -1,0 +1,100 @@
+#sign_up_page{
+    margin: auto;
+    margin-top: 5rem;
+     display: flex;
+     justify-content: center;
+     height:35rem;
+     width: 60%;
+     min-width: fit-content;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   
+   }
+
+   #sign_up_page .content_left_signupPage{
+    height:35rem;
+    width:45%;
+    min-width: 300px;
+background-color: rgb(62, 107, 255);
+color: #fff;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+   }
+   #sign_up_page .content_left_signupPage .content_part h1{
+ margin-bottom: 2rem;
+ margin-top: 2rem;
+   }
+   #sign_up_page .content_left_signupPage .content_part h1,
+   #sign_up_page .content_left_signupPage .content_part h3{
+    line-height: 1.6;
+   }
+
+
+#sign_up_page .content_img .img{
+    background-image: url("https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png");
+    background-position: center 85%;
+    background-repeat: no-repeat;
+    height:20rem;
+    width: 300px;
+}
+#sign_up_page .content_right_signupPage{
+width:55%;
+min-width:350px;
+background-color: #fff;
+padding:3rem 2rem;
+}
+
+#sign_up_form label{
+    font-size: large;
+    font-weight: 600;
+}
+#sign_up_form input{
+    width: 100%;
+    margin-top: 6px;
+    height: 2rem;
+}
+#sign_up_form #submit{
+    cursor: pointer;
+    background-color: rgb(255, 102, 0);
+    color: #fff;
+}
+
+ #existing_contact{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin-top: 1rem;
+    height: 3rem;
+}
+#existing_contact a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:758px) {
+    #sign_up_page{
+      width: fit-content;  
+    }
+    #sign_up_page .content_left_signupPage{
+        display: none;
+    } 
+}
+@media screen and (max-width:609px) {
+    #sign_up_page{
+        margin-top: 7rem;
+    }
+}
+@media screen and (max-width:418px) {
+    #sign_up_page{
+        width: 90%;
+
+    }
+    #sign_up_page .content_right_signupPage{
+        width:98%;
+min-width:0;
+background-color: #fff;
+padding:3rem 1rem;
+    } 
+}
